@@ -1,0 +1,11 @@
+VIDEOS DE MOVIMIENTOS - IMPORTADORA LA ROCA
+
+Guarda aquí cuatro videos verticales en formato MP4 con estos nombres exactos:
+movimiento-01.mp4
+movimiento-02.mp4
+movimiento-03.mp4
+movimiento-04.mp4
+
+Los videos se reproducen automáticamente sin sonido y en bucle cuando están visibles. Al pulsar cualquier tarjeta se abre el TikTok indicado en la web. El carrusel se desplaza de derecha a izquierda.
+
+Para que la reproducción automática funcione en los navegadores, los videos se silencian por defecto. Utiliza archivos propios o autorizados y procura optimizarlos para la web.

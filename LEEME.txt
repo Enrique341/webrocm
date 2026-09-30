@@ -1,0 +1,33 @@
+IMPORTADORA DE REPUESTOS LA ROCA — versión profesional
+========================================================
+Páginas: inicio, catálogo, motos, repuestos, accesorios, nosotros y contacto.
+Diseño responsive con paleta negra, roja y blanca, animaciones suaves, entrada al desplazarse, menú móvil, botón flotante de WhatsApp, botón para volver arriba y filtros del catálogo.
+WhatsApp configurado: 939 017 959 (enlace internacional 51939017959).
+Ubicación indicada: Jr. Daniel Alcides Carrión N.° 343, Satipo, Junín, frente al Hospital Manuel Ángel Higa Arakaki.
+Mapa: abre una búsqueda de Google Maps por dirección; revisa que el marcador coincida con el local exacto antes de publicar.
+assets/img/ing.png: imagen ilustrativa generada para el concepto KAYO T4 300; no es una fotografía oficial verificada del modelo.
+assets/img/logo.png: recorte del logo proporcionado por el cliente.
+Para probar: abre esta carpeta en VS Code, abre index.html y pulsa Go Live.
+Nota: las imágenes de productos son ilustrativas hasta que se sustituyan por fotografías reales del inventario.
+
+
+MEJORA ULTRA — 29/09/2026
+=========================
+- Se incorporó un mapa de Google Maps incrustado en index.html casi al final de la página, con botones de ruta y búsqueda.
+- Se reforzó la accesibilidad: enlace para saltar al contenido, estados de foco visibles, menú móvil que cierra con Escape y soporte para reducir movimiento.
+- Se añadieron medidas del lado del navegador: Content Security Policy mediante meta tag, bloqueo de objetos, restricción de formularios/base URI, actualización a HTTPS y rel=noopener/noreferrer para enlaces externos.
+- El JavaScript evita inyección de HTML al renderizar mensajes de filtros y limita la longitud del texto enviado a WhatsApp.
+- Importante: los encabezados HTTP estrictos (HSTS, X-Frame-Options, Permissions-Policy, etc.) deben configurarse en el hosting; un sitio estático abierto con Live Server no puede imponerlos por sí solo.
+- La CSP es una defensa adicional, no sustituye HTTPS, revisión del hosting ni pruebas en el navegador.
+- El mapa es una búsqueda de Google Maps por la dirección facilitada y debe verificarse visualmente para confirmar el pin exacto.
+- No se implementa checkout ni formulario que recoja datos sensibles; las consultas comerciales se hacen por WhatsApp.
+
+
+MEJORA DE CATÁLOGO Y FICHAS — 30/09/2026
+========================================
+- Se añadió assets/css/refined.css para una presentación comercial más sobria, manteniendo negro, rojo y blanco de La Roca.
+- Se ajustaron tipografía, espaciado, tarjetas, filtros y diseño responsive; se redujeron brillos, efectos decorativos y animaciones llamativas.
+- Se añadió producto.html como ficha individual. Desde las tarjetas, “Ver ficha del producto” abre la ficha con nombre, categoría, descripción e imagen del artículo.
+- No se inventan precios, stock ni especificaciones: la ficha invita a consultar y confirma que los datos deben validarse con la tienda.
+- Las fotografías de catálogo siguen siendo ilustrativas y deben reemplazarse por imágenes reales del inventario para publicar la tienda.
+- Probar con VS Code + Live Server abriendo index.html; desde el catálogo, entrar a “Ver ficha del producto”.
